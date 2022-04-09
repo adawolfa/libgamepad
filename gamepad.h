@@ -114,9 +114,9 @@ typedef enum GAMEPAD_STICK GAMEPAD_STICK;
 typedef enum GAMEPAD_STICKDIR GAMEPAD_STICKDIR;
 typedef enum GAMEPAD_BOOL GAMEPAD_BOOL;
 
-#define GAMEPAD_DEADZONE_LEFT_STICK		7849	/**< Suggested deadzone magnitude for left analog stick */
-#define	GAMEPAD_DEADZONE_RIGHT_STICK	8689	/**< Suggested deadzone magnitude for right analog stick */
-#define GAMEPAD_DEADZONE_TRIGGER		30		/**< Suggested deadzone for triggers */
+#define GAMEPAD_DEADZONE_LEFT_STICK		0	/**< Suggested deadzone magnitude for left analog stick */
+#define	GAMEPAD_DEADZONE_RIGHT_STICK	0	/**< Suggested deadzone magnitude for right analog stick */
+#define GAMEPAD_DEADZONE_TRIGGER		0	/**< Suggested deadzone for triggers */
 
 /**
  * Initialize the library.
